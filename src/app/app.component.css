@@ -1,0 +1,46 @@
+h1 {
+    color: #369
+}
+
+.title-layout {
+    text-align: center;    
+}
+
+.chat-layout {
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.bubble1 {
+    max-width: fit-content;
+    /* flex-direction: column;
+    align-items: flex-start;     */
+}
+
+.bubble2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.person {
+    color: #000000;
+    font-size: 12px;
+    margin: 2px;
+}
+
+.person1 {
+    background: #ecf0f1;
+    color: #000000;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.person2 {
+    background: #3498db;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 25px;
+}
