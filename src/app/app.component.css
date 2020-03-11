@@ -13,6 +13,10 @@ h1 {
     flex-direction: column;
 }
 
+.input-person1 {
+    float: left;
+}
+
 .bubble1 {
     max-width: fit-content;
     /* flex-direction: column;

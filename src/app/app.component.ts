@@ -9,6 +9,7 @@ import { IConversation, subscriberType } from './conversation.interface';
 export class AppComponent {
     title = 'Angular Chat';
     conversation: IConversation[] = [];
+    inputUser: string = "default";
 
     constructor() {
         this.updateConversation(1, "Salut!", "Andrei", subscriberType.sender, new Date().toLocaleTimeString());
